@@ -61,34 +61,21 @@ main {
     grid-template-columns: 100%;
 }
 
-.containerIcons {
+.containerIcons1 {
+    display: flex;
+    gap: 30px;
+}
+.containerTexts1 {
     display: flex;
     gap: 30px;
     margin-top: -5%;
+    font-size: 10px;
+    margin-bottom: 20%;
 }
 
 .icono {
     width: 50px;
     height: 50px;
-}
-
-.linea1 {
-    background-color: gold;
-    width: 100px;
-    height: 7px;
-    border-radius: 12px 0px 0px 12px;
-    position: absolute;
-    margin-left: 4%;
-    margin-top: 5px;
-}
-
-.fondo1 {
-    background-color: gray;
-    width: 150px;
-    height: 7px;
-    border-radius: 12px;
-    margin-left: 20%;
-    margin-top: 5px;
 }
 
 .textoAlReves1 {
@@ -119,3 +106,59 @@ main {
     font-weight: bold;
 }
 
+.bloq2 {
+    width: 70%;
+}
+
+.containerBarra {
+    display: grid;
+    grid-template-columns: auto;
+}
+
+.fondo1 {
+    background-color: gray;
+    width: 200px;
+    height: 10px;
+    border-radius: 12px;
+}
+
+.fondo2 {
+    background-color: gray;
+    width: 200px;
+    height: 10px;
+    border-radius: 12px;
+}
+
+.fondo3 {
+    background-color: gray;
+    width: 200px;
+    height: 10px;
+    border-radius: 12px;
+}
+
+.linea1 {
+    background-color: gold;
+    width: 90px;
+    height: 10px;
+    border-radius: 12px 0px 0px 12px;
+    position: absolute;
+    margin-top: -0.8%;
+}
+
+.linea2 {
+    background-color: gold;
+    width: 110px;
+    height: 10px;
+    border-radius: 12px 0px 0px 12px;
+    position: absolute;
+    margin-top: 3.65%;
+}
+
+.linea3 {
+    background-color: gold;
+    width: 50px;
+    height: 10px;
+    border-radius: 12px 0px 0px 12px;
+    position: absolute;
+    margin-top: -0.8%;
+}
