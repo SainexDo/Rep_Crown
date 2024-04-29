@@ -59,6 +59,8 @@ main {
     width: 70%;
     display: grid;
     grid-template-columns: 100%;
+    margin-top: 7%;
+    font-size: 15px;
 }
 
 .containerIcons1 {
@@ -108,11 +110,14 @@ main {
 
 .bloq2 {
     width: 70%;
+    margin-left: 17%;
+    margin-top: 7%;
+    font-size: 15px;
 }
 
 .containerBarra {
-    display: grid;
-    grid-template-columns: auto;
+    margin-top: 10%;
+    gap: 50px;
 }
 
 .fondo1 {
@@ -151,7 +156,7 @@ main {
     height: 10px;
     border-radius: 12px 0px 0px 12px;
     position: absolute;
-    margin-top: 3.65%;
+    margin-top: -0.8%;
 }
 
 .linea3 {
